@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.content_wrapper{
+    width: 100%;
+    background-color: rgb(179, 196, 202);
+}
+.content_wrapper > .content{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(175 204 187);
+    padding: 30px 50px;
+}
+.content > .img img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.content > .img p{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    color: grey;
+    font-size: medium;
+}
+.heading h2{
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    padding: 20px;
+}
+.article p{
+    color: black;
+    padding:20px;
+    text-align: justify;
+}

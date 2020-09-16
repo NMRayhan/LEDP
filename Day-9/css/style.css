@@ -1,0 +1,70 @@
+*{padding: 0px;margin: 0px;}
+body{
+    width: 100%;
+    margin: 0;
+}
+.person img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 20px;
+    border: 2px solid white;
+}
+.person{
+    width: 449px;
+    background-color: #233342;
+    float:left;
+    margin-top: 20px;
+}
+.person h2{
+    text-align: center;
+    color: white;
+}
+.person p{
+    text-align: justify;
+}
+.header h1{
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+    display: block;
+    width: 80%;
+    margin: auto;
+    border-radius: 20px;
+}
+.details p{
+    word-spacing: 5px;
+    
+}
+.card{
+    width: 300px;
+    display: block;
+    height: 380px;
+    background-color:rgb(230, 227, 227);
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px 10px 0 0;
+    transition: 0.3s;
+    opacity: .7;
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    opacity: 1.0;
+}
+.card img{
+    width: 300px;
+    height: 300px;
+    display: block;
+    border-radius: 10px 10px 0 0;
+}
+.details h3,p{
+    text-align: center;
+    padding: 2px 16px;
+}
+.second{
+    margin-left: 25px;
+    margin-top: 25px;
+}

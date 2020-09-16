@@ -1,0 +1,65 @@
+.main_wrap{
+    width: 80%;
+    margin: auto;
+}
+body{
+    background-color: rosybrown;
+}
+.bd_flag .green{
+    background-color: green;
+    width: 350px;
+    height: 190px;
+    overflow: hidden;
+}
+.bd_flag{
+    float: left;
+}
+.bd_flag .circle{
+    width: 145px;
+    height: 145px;
+    border-radius: 50%;
+    background-color: red;
+    margin-left: 115px;
+    margin-top: 22px;
+}
+.nigeria_flag > .niger_green{
+    background-color: #00834e;
+    height: 190px;
+    width: 100px;
+    float: left;
+}
+.nigeria_flag .marg{
+    margin-left: 10px;
+}
+.niger_white{
+    height: 190px;
+    width: 100px;
+    background-color: #fdfdfd;
+    float: left;
+}
+.nigeria_fla{
+    float: left;
+    border: 2px solid red;
+}
+.netharland_flag > .last{
+    width: 350px;
+    height: 63x;
+}
+.netharland_flag .middle{
+    background-color: #ffffff;
+    width: 350px;
+    height: 63px;
+}
+.netharland_flag .first{
+    background-color: #c50000;
+    width: 350px;
+    height: 63px;
+    
+}
+.netharland_flag{
+    float: left;
+    margin-left: 10px;
+    height: 190px;
+    width: 350px;
+    background-color: #0249ce;
+}
