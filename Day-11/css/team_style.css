@@ -1,0 +1,96 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width: 100%;
+    position: relative;
+    background-color: white;
+    height: auto;
+}
+.main_div{
+    position: absolute;
+    left: 0px;
+    top: 25px;
+    right: 0px;
+    margin: auto;
+    width: 90%;
+    height: 550px;
+}
+.header{
+    display: block;
+    float: center;
+}
+.main_div .header h1, h3{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(76 75 76);
+}
+hr.new1{
+    display: block;
+    border: none;
+    background-color: rgb(76 75 76);
+    width: 15%;
+    margin: 0px auto;
+    height: 2px;
+    margin-top: 15px
+}
+.photo_section{
+    width: 1215px;
+    height: 150px;
+    margin-top: 20px;
+    display: block;
+}
+.photo_section .photo img{
+    width: 140px;
+    height: 120px;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+.photo_section .photo{
+    float: left;
+}
+.details{
+    width: 1215px;
+    height: 305px;
+    background-color:white;
+    position: relative;
+}
+.photo_people{
+    width: 370px;
+    height: 280px;
+    display: block;
+    float: left;
+    position: absolute;
+    left: -785px;
+    right: 0px;
+    top: 0px;
+    bottom: 10px;
+    margin: auto;
+}
+.photo_people img{
+    width: 330px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+.photo_details{
+    width: 800px;
+    height: 280px;
+    left: 400px;
+    right: 0px;
+    bottom: 0px;
+    top: 100px;
+    margin: auto;
+    position: absolute;
+}
+.photo_details h1{
+    color: rgb(76 75 76);
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.photo_details p{
+    color: rgb(76 75 76);
+}

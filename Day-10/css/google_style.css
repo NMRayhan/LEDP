@@ -1,0 +1,134 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    position: relative;
+}
+*{padding: 0px; margin: 0px;}
+
+#topBar {
+    background-color: #FFFFFF;
+    height: 48px;
+    margin-top: 30px;
+}
+section.container {
+    width: 1300px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin: 0 auto;
+}
+.gmail a{
+    width: 60px;
+    background-color: #FFFFFF;
+    float: right;
+    text-decoration: none;
+    color:rgba(0,0,0,0.87);
+}
+.gmail a:hover{
+    text-decoration: underline;
+    color: #979494;
+}
+.img a:hover{
+    text-decoration: underline;
+    color: #979494;
+}
+.img a{
+    width: 75px;
+    text-decoration: none;
+    background-color: #FFFFFF;
+    float: right;
+    color: rgba(0,0,0,0.87);
+}
+.menu img{
+    width: 28px;
+    height: 25px;
+}
+.menu img:hover{
+    cursor: pointer;
+}
+.menu {
+    width: 60px;
+    background-color: #FFFFFF;
+    float: right;
+}
+.account_div{
+    float: right;
+}
+.account_div img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.logoBar {
+    width: 1350px;
+    background-color: #FFFFFF;
+    position: relative;
+}
+.logoBar .logo img{
+    width: 285px;
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    left: 0px;
+    margin-top: 20px;
+    margin: auto;
+}
+.logoBar input[type=search]{
+    bottom: -172px;
+    right: 0px;
+    left: 0px;
+    margin: auto;
+    position: absolute;
+    width: 550px;
+    height: 50px;
+    border-radius: 25px;
+    padding-left: 30px;
+    background-color: transparent;
+    font-size: 16px;
+    border-top-style: revert;
+    border-right-style: revert;
+    border-left-style: revert;
+    border-bottom-style: revert;
+}
+.logoBar input[type=search]:hover{
+    box-shadow: 0px 1px 4px 0px #afa7a7;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+}
+input:focus{
+    outline: none;
+}
+.button {
+    position: absolute;
+    top: 0;
+    left: -50px;
+    right: 0;
+    margin-left: 580px;
+}
+.button .g_search, .button .f_lucky{
+    height: 37px;
+    font-size: 16px;
+    width: 125px;
+    background-color: #F4F4F4;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    margin-top: 259px;
+    margin-left: 10px;
+}
+.g_search a, .f_lucky a{
+    text-decoration: none;
+    color: #827f82;
+}
+.button button:hover{
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.g_search a:hover{
+    color: #000000;
+    
+}
+.f_lucky a:hover{
+    color: #000000;
+}
